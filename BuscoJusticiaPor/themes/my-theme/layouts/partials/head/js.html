@@ -5,7 +5,7 @@
     {{- end }}
   {{- else }}
   {{- with . | js.Build }}
-      <script src="BuscoJusticiaPor{{ .RelPermalink }}"></script>
+      <script src="personasDesaparecidasHugo{{ .RelPermalink }}"></script>
     {{- end }}
   {{- end }}
 {{- end }}
@@ -17,7 +17,7 @@
     {{- end }}
   {{- else }}
   {{- with . | js.Build }}
-      <script src="BuscoJusticiaPor{{ .RelPermalink }}"></script>
+      <script src="personasDesaparecidasHugo{{ .RelPermalink }}"></script>
     {{- end }}
   {{- end }}
 {{- end }}
@@ -26,7 +26,7 @@
 {{- with resources.Get "js/processMedia.js" }}
   {{- if eq hugo.Environment "development" }}
     {{- with . | js.Build }}
-      <script src="BuscoJusticiaPor{{ .RelPermalink }}"></script>
+      <script src="personasDesaparecidasHugo{{ .RelPermalink }}"></script>
     {{- end }}
   {{- else }}
   {{- with . | js.Build }}
