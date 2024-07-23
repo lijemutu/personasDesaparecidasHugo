@@ -17,7 +17,7 @@
     {{- end }}
   {{- else }}
   {{- with . | js.Build }}
-      <script src="{{ .RelPermalink }}"></script>
+      <script src="js/tailwind.js"></script>
     {{- end }}
   {{- end }}
 {{- end }}
@@ -30,7 +30,7 @@
     {{- end }}
   {{- else }}
   {{- with . | js.Build }}
-      <script src="{{ .RelPermalink }}"></script>
+      <script src="js/processMedia.js"></script>
     {{- end }}
   {{- end }}
 {{- end }}
