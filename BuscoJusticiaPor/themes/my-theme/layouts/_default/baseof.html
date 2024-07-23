@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body class="bg-orange-50 text-zinc-950 font-neue">
+  <main>
+    <div class="mx-1 px-1 min-h-screen">
+      <header>
+
+        {{ if eq .RelPermalink "/" }}
+        {{ partial "header.html" . }}
+        {{ else if in .RelPermalink "/posts" }}
+        {{ partial "headerPost.html" . }}
+        <h1 class="text-8xl md:text-7xl lg:text-10xl font-bold tracking-tighter leading-tight md:leading-none mb-12 text-center md:text-left">
+          {{ .Title }}
+        </h1>
+        {{ end }}
+      </header>
+      <main>
+        <section>
+          <div class=" mx-20 md:mx-[600px] ">
+            {{ block "main" . }}{{ end }}
+
+          </div>
+        </section>
+      </main>
+      <footer>
+        {{ partial "footer.html" . }}
+      </footer>
+    </div>
+
+  </main>
+
+</body>
+
+</html>

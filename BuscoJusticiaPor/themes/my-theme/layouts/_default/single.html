@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="max-w-2xl mx-auto markdown">
+  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format ":date_long" }}
+  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+
+
+  <div id="content">{{ .Content | plainify }}</div>
+  <!-- {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} -->
+</div>
+<script src="/js/process.js"></script>
+<script>
+
+
+  const contentElement = document.getElementById('content');
+  // Apply the function to the content
+  contentElement.innerHTML = processMediaLinks(contentElement.innerHTML);
+</script>
+{{ end }}
