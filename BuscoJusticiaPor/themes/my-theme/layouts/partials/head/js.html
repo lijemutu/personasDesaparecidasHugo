@@ -5,7 +5,7 @@
     {{- end }}
   {{- else }}
   {{- with . | js.Build }}
-      <script src="{{ .RelPermalink }}"></script>
+      <script src="js/main.js"></script>
     {{- end }}
   {{- end }}
 {{- end }}
