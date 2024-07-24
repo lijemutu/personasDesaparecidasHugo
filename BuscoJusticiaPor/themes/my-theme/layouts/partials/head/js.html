@@ -30,8 +30,7 @@
     {{- end }}
   {{- else }}
   {{- $process := resources.Get "js/processMedia.js"  }}
-  {{- $processMedia := (slice $process ) | resources.Concat "js/processMediaM.js"  }}
-      <!-- <script src="{{ .Permalink }}"></script> -->
+  {{- $processMedia := (slice $process ) | resources.Concat "js/processMedia.js"  }}
       <script src="{{ $processMedia.Permalink }}" ></script>
   {{- end }}
 {{- end }}
