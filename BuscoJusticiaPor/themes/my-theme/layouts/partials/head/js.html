@@ -30,8 +30,8 @@
     {{- end }}
   {{- else }}
   {{- $process := resources.Get "js/processMedia.js"  }}
-  {{- $processMedia := (slice $process ) | resources.Concat "js/processMediaM.js" | fingerprint }}
+  {{- $processMedia := (slice $process ) | resources.Concat "js/processMediaM.js"  }}
       <!-- <script src="{{ .Permalink }}"></script> -->
-      <script defer crossorigin="anonymous" src="{{ $processMedia.Permalink }}" integrity="{{ $processMedia.Data.Integrity }}"></script>
+      <script src="{{ $processMedia.Permalink }}" ></script>
   {{- end }}
 {{- end }}
