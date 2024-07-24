@@ -29,8 +29,9 @@
       <script src="{{ .RelPermalink }}"></script>
     {{- end }}
   {{- else }}
-  {{- with . | js.Build }}
-      <script src="{{ .Permalink }}"></script>
-    {{- end }}
+  {{- $process := resources.Get "js/processMedia.js"  }}
+  {{- $processMedia := (slice $process ) | resources.Concat "js/processMediaM.js" | fingerprint }}
+      <!-- <script src="{{ .Permalink }}"></script> -->
+      <script defer crossorigin="anonymous" src="{{ $processMedia.Permalink }}" integrity="{{ $processMedia.Data.Integrity }}"></script>
   {{- end }}
 {{- end }}

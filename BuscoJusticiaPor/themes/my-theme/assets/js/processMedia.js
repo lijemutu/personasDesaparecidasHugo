@@ -1,12 +1,14 @@
-function processMediaLinks(content) {
+(() => {
+
+  function processMediaLinks(content) {
     const imageRegex = /https?:\/\/\S+\.(jpg|png)/g;
     const youtubeRegex = /https?:\/\/(?:www\.)?youtube\.com\/watch\?v=([a-zA-Z0-9_-]+)/g;
     const linkRegex = /https?:\/\/\S+/g;
     // console.log(content);
-    content = content.replace('&amp;ldquo;','\"');
-    content = content.replace('&amp;rdquo;','\"');
-    content = content.replace('&amp;ldquo;','\"');
-    content = content.replace('&amp;rdquo;','\"');
+    content = content.replace('&amp;ldquo;', '\"');
+    content = content.replace('&amp;rdquo;', '\"');
+    content = content.replace('&amp;ldquo;', '\"');
+    content = content.replace('&amp;rdquo;', '\"');
     // content = content.replace('&amp;rddquo;','\"');
 
     return content.replace(linkRegex, (match) => {
@@ -35,3 +37,5 @@ function processMediaLinks(content) {
       }
     });
   }
+
+})();
