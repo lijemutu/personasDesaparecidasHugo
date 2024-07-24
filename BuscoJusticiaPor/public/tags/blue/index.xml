@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blue on Busco Justicia Por</title>
-    <link>http://localhost:1313/tags/blue/</link>
+    <link>https://lijemutu.github.io/personasDesaparecidasHugo/tags/blue/</link>
     <description>Recent content in Blue on Busco Justicia Por</description>
     <generator>Hugo</generator>
     <language>es-mx</language>
     <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/blue/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lijemutu.github.io/personasDesaparecidasHugo/tags/blue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Luis Ángel López Guzmán - CDMX</title>
-      <link>http://localhost:1313/posts/post-3/</link>
+      <link>https://lijemutu.github.io/personasDesaparecidasHugo/posts/post-3/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/post-3/</guid>
+      <guid>https://lijemutu.github.io/personasDesaparecidasHugo/posts/post-3/</guid>
       <description>&amp;ldquo;Luis estaba en su domicilio, arreglando los vidrios de un departamento. Entran tres hombres por él. Preguntan quién es Luis, entra un cuarto hombre que lo señala y dice: &amp;ldquo;es él&amp;rdquo;. Y es como se llevan a mi hijo&amp;rdquo; - Rosa Icela Guzmán Madre de Luis Angel&#xA;El lugar donde nos dan su última geolocalización es en Tláhuac, en el bosque de Tláhuac es un lugar muy extenso donde hay lagunas, he entrado a incluso a otros estados buscando ya no solo a Luis sino a los miles de desaparecidos que existen en Ciudad de México.</description>
     </item>
   </channel>
