@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/tags/blue/</loc>
+    <loc>https://buscojusticiapor.info/tags/blue/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/green/</loc>
+    <loc>https://buscojusticiapor.info/tags/green/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/post-3/</loc>
+    <loc>https://buscojusticiapor.info/posts/post-3/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/red/</loc>
+    <loc>https://buscojusticiapor.info/tags/red/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://buscojusticiapor.info/tags/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/</loc>
+    <loc>https://buscojusticiapor.info/posts/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>https://buscojusticiapor.info/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://buscojusticiapor.info/categories/</loc>
   </url>
 </urlset>

@@ -5,7 +5,7 @@
     {{- end }}
   {{- else }}
   {{- with . | js.Build }}
-      <script src="{{ .RelPermalink }}"></script>
+      <script src="{{ .Permalink }}"></script>
     {{- end }}
   {{- end }}
 {{- end }}
@@ -17,7 +17,7 @@
     {{- end }}
   {{- else }}
   {{- with . | js.Build }}
-      <script src="{{ .RelPermalink }}"></script>
+      <script src="{{ .Permalink }}"></script>
     {{- end }}
   {{- end }}
 {{- end }}
@@ -30,7 +30,7 @@
     {{- end }}
   {{- else }}
   {{- with . | js.Build }}
-      <script src="{{ .RelPermalink }}"></script>
+      <script src="{{ .Permalink }}"></script>
     {{- end }}
   {{- end }}
 {{- end }}
